@@ -12,7 +12,7 @@ import GetInTouch from "../componets/website/GetInTouch";
 const ServicePageLayout = () => {
   const { pathname } = useLocation();
   const wrapperRef = useRef(null);
-  const [isFirstVisit, setIsFirstVisit] = useState(true);
+  // const [isFirstVisit, setIsFirstVisit] = useState(true);
   const prevPath = useRef(pathname); // To store the previous path
 
   useEffect(() => {

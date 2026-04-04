@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import { companyDetails, logoImg, routes } from "../constant";
-import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
-import { companyDetails, logoImg, routes } from "../../constant";
+// import { BsFacebook, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
+// import { companyDetails, logoImg, routes } from "../../constant";
 
 const Thankyou = () => {
   return (

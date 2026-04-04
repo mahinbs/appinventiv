@@ -61,7 +61,6 @@ import { SlBadge } from "react-icons/sl";
 import {
   MdOutlineDashboardCustomize,
   MdOutlineDeveloperMode,
-  MdPermMedia,
 } from "react-icons/md";
 import {
   GiArtificialIntelligence,
@@ -75,7 +74,7 @@ import { SiFlutter, SiHiveBlockchain } from "react-icons/si";
 import { IoLogoAndroid, IoMdCloudDone } from "react-icons/io";
 import { CgWebsite } from "react-icons/cg";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
-import { RiCustomSize } from "react-icons/ri";
+// import { RiCustomSize } from "react-icons/ri";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import bannerVid from './assets/videos/banner.mp4'
 
