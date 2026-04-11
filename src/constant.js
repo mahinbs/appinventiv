@@ -1,60 +1,3 @@
-import logoImg from "./assets/images/logo/logo.svg";
-import whyChooseUsIcon1 from "./assets/images/ph_target-light.png";
-import whyChooseUsIcon2 from "./assets/images/mage_light-bulb.png";
-import whyChooseUsIcon3 from "./assets/images/tdesign_user-talk.png";
-import whyChooseUsIcon4 from "./assets/images/healthicons_ui-secure-outline.png";
-import whyChooseUsPng from "./assets/images/whychooseus-png.png";
-import faqPng from "./assets/images/faq-character.png";
-import appDevBanner from "./assets/images/app-dev-banner.jpg";
-import webDevBanner from "./assets/images/web-landing-banner.jpg";
-import webLandingAbout from "./assets/images/web-landing-about1.jpg";
-import appLandingAbout from "./assets/images/app-landing-about.jpg";
-import endlessOpportunitiesImg1 from "./assets/images/section-8-img-1.png";
-import endlessOpportunitiesImg2 from "./assets/images/section-8-img-2.png";
-import endlessOpportunitiesImg3 from "./assets/images/section-8-img-3.png";
-import homeBannerVideo from "./assets/videos/home-banner.mp4";
-import defaultBanner from "./assets/images/banner.jpg";
-import aboutUsBanner from "./assets/images/aboutusbanner.jpg";
-import contactusbanner from "./assets/images/contactusbanner1.jpg";
-import aboutUsGridImg1 from "./assets/images/aboutus-png1.png";
-import aboutUsGridImg2 from "./assets/images/aboutus-png2.png";
-import aboutUsGridImg3 from "./assets/images/aboutus-png3.png";
-import aboutUsGridImg4 from "./assets/images/aboutus-png4.png";
-import aboutUsGridImg5 from "./assets/images/aboutus-png5.png";
-import profileImg1 from "./assets/images/profileimg-1.jpg";
-import profileImg2 from "./assets/images/profileimg-2.jpg";
-import serviceswebdevelopment from "./assets/images/services/serviceswebdevelopment.jpg";
-import serviceaidevelopment from "./assets/images/services/serviceaidevelopment.jpg";
-import chatbotdevelopment from "./assets/images/services/chatbotdevelopment.jpg";
-import datadevelopment from "./assets/images/services/datadevelopment.jpg";
-import gamedevelopment from "./assets/images/services/gamedevelopment.jpg";
-import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
-import machinelearning from "./assets/images/services/machinelearning.jpg";
-import clouddevelopment from "./assets/images/services/clouddevelopment.jpg";
-import rpa from "./assets/images/services/rpa.jpg";
-import aboutone from "./assets/images/aboutone.jpg";
-import abouttwo from "./assets/images/abouttwo.jpg";
-import aboutthree from "./assets/images/aboutthree.jpg";
-import aboutfour from "./assets/images/aboutfour.jpg";
-import aboutfive from "./assets/images/aboutfive.jpg";
-import aboutusintroone from "./assets/images/aboutusintroone.jpg";
-import aboutusintrotwo from "./assets/images/aboutusintrotwo.jpg";
-import allbgimage from "./assets/images/allbgimage.jpg";
-// Import web development project images
-import fiveGHome from "./assets/images/web-development/5ghomes.webp";
-import coldCreek from "./assets/images/web-development/cold-creekcap.webp";
-import thinkReality from "./assets/images/web-development/think-reality.webp";
-import akashMegaMart from "./assets/images/web-development/akash-mega-mart.webp";
-import midwam from "./assets/images/web-development/midwam.webp";
-
-// Import app development project images
-import akashApp from "./assets/images/app-development/akash_mega_mart-app.webp";
-import feelitApp from "./assets/images/app-development/feelit_app.webp";
-import klikomicsApp from "./assets/images/app-development/klikomics.webp";
-import autosnapApp from "./assets/images/app-development/autosnap-app.webp";
-import rentopApp from "./assets/images/app-development/rentop.webp";
-
-import { lazy } from "react";
 import { BiBrain, BiBulb, BiRocket } from "react-icons/bi";
 import { GoFileMedia, GoGraph } from "react-icons/go";
 import { SlBadge } from "react-icons/sl";
@@ -74,14 +17,62 @@ import { SiFlutter, SiHiveBlockchain } from "react-icons/si";
 import { IoLogoAndroid, IoMdCloudDone } from "react-icons/io";
 import { CgWebsite } from "react-icons/cg";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
-// import { RiCustomSize } from "react-icons/ri";
 import { TbDeviceMobileCode } from "react-icons/tb";
-import bannerVid from './assets/videos/banner.mp4'
 
-const Home = lazy(() => import("./pages/website/Home"));
-const Services = lazy(() => import("./pages/website/Services"));
-const ContactUs = lazy(() => import("./pages/website/ContactUs"));
-const AboutUs = lazy(() => import("./pages/website/AboutUs"));
+// All assets served from /public/assets — no webpack processing, no bundle bloat
+const logoImg = "/assets/images/logo/logo.svg";
+const whyChooseUsIcon1 = "/assets/images/ph_target-light.png";
+const whyChooseUsIcon2 = "/assets/images/mage_light-bulb.png";
+const whyChooseUsIcon3 = "/assets/images/tdesign_user-talk.png";
+const whyChooseUsIcon4 = "/assets/images/healthicons_ui-secure-outline.png";
+const whyChooseUsPng = "/assets/images/whychooseus-png.png";
+const faqPng = "/assets/images/faq-character.png";
+const appDevBanner = "/assets/images/app-dev-banner.jpg";
+const webDevBanner = "/assets/images/web-landing-banner.jpg";
+const webLandingAbout = "/assets/images/web-landing-about1.jpg";
+const appLandingAbout = "/assets/images/app-landing-about.jpg";
+const endlessOpportunitiesImg1 = "/assets/images/section-8-img-1.png";
+const endlessOpportunitiesImg2 = "/assets/images/section-8-img-2.png";
+const endlessOpportunitiesImg3 = "/assets/images/section-8-img-3.png";
+const homeBannerVideo = "/assets/videos/home-banner.mp4";
+const defaultBanner = "/assets/images/banner.jpg";
+const aboutUsBanner = "/assets/images/aboutusbanner.jpg";
+const contactusbanner = "/assets/images/contactusbanner1.jpg";
+const aboutUsGridImg1 = "/assets/images/aboutus-png1.png";
+const aboutUsGridImg2 = "/assets/images/aboutus-png2.png";
+const aboutUsGridImg3 = "/assets/images/aboutus-png3.png";
+const aboutUsGridImg4 = "/assets/images/aboutus-png4.png";
+const aboutUsGridImg5 = "/assets/images/aboutus-png5.png";
+const profileImg1 = "/assets/images/profileimg-1.jpg";
+const profileImg2 = "/assets/images/profileimg-2.jpg";
+const serviceswebdevelopment = "/assets/images/services/serviceswebdevelopment.jpg";
+const serviceaidevelopment = "/assets/images/services/serviceaidevelopment.jpg";
+const chatbotdevelopment = "/assets/images/services/chatbotdevelopment.jpg";
+const datadevelopment = "/assets/images/services/datadevelopment.jpg";
+const gamedevelopment = "/assets/images/services/gamedevelopment.jpg";
+const blockchaindevelopment = "/assets/images/services/blockchaindevelopment.jpg";
+const machinelearning = "/assets/images/services/machinelearning.jpg";
+const clouddevelopment = "/assets/images/services/clouddevelopment.jpg";
+const rpa = "/assets/images/services/rpa.jpg";
+const aboutone = "/assets/images/aboutone.jpg";
+const abouttwo = "/assets/images/abouttwo.jpg";
+const aboutthree = "/assets/images/aboutthree.jpg";
+const aboutfour = "/assets/images/aboutfour.jpg";
+const aboutfive = "/assets/images/aboutfive.jpg";
+const aboutusintroone = "/assets/images/aboutusintroone.jpg";
+const aboutusintrotwo = "/assets/images/aboutusintrotwo.jpg";
+const allbgimage = "/assets/images/allbgimage.jpg";
+const fiveGHome = "/assets/images/web-development/5ghomes.webp";
+const coldCreek = "/assets/images/web-development/cold-creekcap.webp";
+const thinkReality = "/assets/images/web-development/think-reality.webp";
+const akashMegaMart = "/assets/images/web-development/akash-mega-mart.webp";
+const midwam = "/assets/images/web-development/midwam.webp";
+const akashApp = "/assets/images/app-development/akash_mega_mart-app.webp";
+const feelitApp = "/assets/images/app-development/feelit_app.webp";
+const klikomicsApp = "/assets/images/app-development/klikomics.webp";
+const autosnapApp = "/assets/images/app-development/autosnap-app.webp";
+const rentopApp = "/assets/images/app-development/rentop.webp";
+const bannerVid = "/assets/videos/banner.mp4";
 
 export {
   logoImg,
@@ -135,26 +126,10 @@ export const companyDetails = {
 
 // website routes
 export const routes = [
-  {
-    name: "Home",
-    path: "/",
-    component: <Home />,
-  },
-  {
-    name: "Services",
-    path: "/services",
-    component: <Services />,
-  },
-  {
-    name: "About Us",
-    path: "/about-us",
-    component: <AboutUs />,
-  },
-  {
-    name: "Contact Us",
-    path: "/contact-us",
-    component: <ContactUs />,
-  },
+  { name: "Home", path: "/" },
+  { name: "Services", path: "/services" },
+  { name: "About Us", path: "/about-us" },
+  { name: "Contact Us", path: "/contact-us" },
 ];
 
 export const faqs = [
@@ -195,7 +170,7 @@ export const webDevelopmentServices = [
   {
     id: 1,
     title: "Digital Commerce",
-    icon: require("./assets/images/icons/online-shopping.png"),
+    icon: "/assets/images/icons/online-shopping.png",
     img: <CgWebsite />,
     description:
       "Driving digital commerce through intelligent storefronts that prioritize user lifecycle and automated inventory management, resulting in superior conversion rates and operational clarity.",
@@ -204,7 +179,7 @@ export const webDevelopmentServices = [
     id: 2,
     title: "Interactive Communities",
     img: <GoFileMedia />,
-    icon: require("./assets/images/icons/socialmedia.png"),
+    icon: "/assets/images/icons/socialmedia.png",
     description:
       "Engineering interactive community spaces with smart content moderation and hyper-personalized discovery algorithms that foster organic growth and long-term user retention.",
   },
@@ -212,7 +187,7 @@ export const webDevelopmentServices = [
     id: 3,
     title: "Conversion Engines",
     img: <TfiLayoutMediaRightAlt />,
-    icon: require("./assets/images/icons/landing-page.png"),
+    icon: "/assets/images/icons/landing-page.png",
     description:
       "Building specialized conversion engines that use behavior-tracking to dynamically adapt to visitor intent, ensuring your brand message resonates with every potential client.",
   },
@@ -220,7 +195,7 @@ export const webDevelopmentServices = [
     id: 4,
     title: "Bespoke Web Solutions",
     img: <MdOutlineDashboardCustomize />,
-    icon: require("./assets/images/icons/software-development.png"),
+    icon: "/assets/images/icons/software-development.png",
     description:
       "Constructing unique web-based tools that solve specific operational bottlenecks through clean architecture, modern UX, and seamless integration with your existing business workflows.",
   },
@@ -232,7 +207,7 @@ export const appDevelopmentServices = [
     id: 1,
     title: "Native iOS Apps",
     img: <FaAppStoreIos />,
-    icon: require("./assets/images/icons/ios-development.png"),
+    icon: "/assets/images/icons/ios-development.png",
     description:
       "Building premium mobile experiences that harness the full power of Apple's ecosystem, focusing on fluid animations, high performance, and ultra-secure data handling for your users.",
   },
@@ -240,7 +215,7 @@ export const appDevelopmentServices = [
     id: 2,
     title: "Android Solutions",
     img: <IoLogoAndroid />,
-    icon: require("./assets/images/icons/android-development.png"),
+    icon: "/assets/images/icons/android-development.png",
     description:
       "Crafting versatile mobile solutions optimized for a wide array of devices, ensuring consistent performance and deep system integration across the entire Android landscape.",
   },
@@ -248,7 +223,7 @@ export const appDevelopmentServices = [
     id: 3,
     title: "Unified Multi-platform",
     img: <SiFlutter />,
-    icon: require("./assets/images/icons/flutter-development.png"),
+    icon: "/assets/images/icons/flutter-development.png",
     description:
       "Deploying unified codebases that deliver native-grade experiences across both iOS and Android, significantly reducing time-to-market while maintaining uncompromising code quality.",
   },
@@ -256,7 +231,7 @@ export const appDevelopmentServices = [
     id: 4,
     title: "Lean Hybrid Apps",
     img: <TbDeviceMobileCode />,
-    icon: require("./assets/images/icons/hybrid-app-development.png"),
+    icon: "/assets/images/icons/hybrid-app-development.png",
     description:
       "Delivering efficient, web-powered mobile applications that offer broad compatibility and rapid deployment cycles, perfectly suited for agile business requirements.",
   },

@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/images/contactimage.jpg";
+const image = "/assets/images/contactimage.jpg";
 const GetInTouch = () => {
   return (
     <div id="contact" className="pb-[5rem] relative">

@@ -1,16 +1,16 @@
 import React from "react";
 // import bgImg from "../../assets/images/bg-img.webp";
 import { useKeenSlider } from "keen-slider/react";
-import img1 from "../../assets/images/client-logos/1.jpeg";
-import img2 from "../../assets/images/client-logos/2.jpeg";
-import img3 from "../../assets/images/client-logos/3.jpeg";
-import img4 from "../../assets/images/client-logos/4.jpeg";
-import img5 from "../../assets/images/client-logos/5.jpeg";
-import img6 from "../../assets/images/client-logos/6.jpeg";
-import img7 from "../../assets/images/client-logos/7.jpeg";
-import img8 from "../../assets/images/client-logos/8.jpeg";
-import img9 from "../../assets/images/client-logos/9.jpeg";
-import img10 from "../../assets/images/client-logos/10.jpeg";
+const img1 = "/assets/images/client-logos/1.jpeg";
+const img2 = "/assets/images/client-logos/2.jpeg";
+const img3 = "/assets/images/client-logos/3.jpeg";
+const img4 = "/assets/images/client-logos/4.jpeg";
+const img5 = "/assets/images/client-logos/5.jpeg";
+const img6 = "/assets/images/client-logos/6.jpeg";
+const img7 = "/assets/images/client-logos/7.jpeg";
+const img8 = "/assets/images/client-logos/8.jpeg";
+const img9 = "/assets/images/client-logos/9.jpeg";
+const img10 = "/assets/images/client-logos/10.jpeg";
 
 const animation = { duration: 10000, easing: (t) => t };
 

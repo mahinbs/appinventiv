@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Contact from "../../componets/landingPages/Contact";
-import aboutUsImg from "../../assets/images/aboutuscontent.jpg";
 import WhyChooseUs from "../../componets/common/WhyChooseUs";
 import ReactPlayer from "react-player";
-import { bannerVid } from "../../constant";
 import OurServices from "../../componets/website/OurServices";
-// import EndlessOpportunitiesSection from "../../componets/common/EndlessOpportunitiesSection";
 import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
 import Testimonials from "../../componets/common/Testimonials";
 import Faqs from "../../componets/common/Faqs";
 import Credibility from "../../componets/common/Credibility";
 import CommonProject from "../../componets/website/CommonProject";
+
+const aboutUsImg = "/assets/images/aboutuscontent.jpg";
+const bannerVid = "/assets/videos/banner.mp4";
 
 const Home = () => {
   return (

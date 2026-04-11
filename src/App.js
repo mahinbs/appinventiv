@@ -7,8 +7,11 @@ import LandingFooter from "./componets/landingPages/LandingFooter";
 import WebsiteHeader from "./componets/website/WebsiteHeader";
 import WebsiteFooter from "./componets/website/WebsiteFooter";
 import { routes } from "./constant";
-import { Suspense, useEffect } from "react";
-import { LoadingSpinner } from "./componets/common/LoadingSpinner";
+import { useEffect } from "react";
+import Home from "./pages/website/Home";
+import Services from "./pages/website/Services";
+import ContactUs from "./pages/website/ContactUs";
+import AboutUs from "./pages/website/AboutUs";
 import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./componets/SpinnerContext";
@@ -32,11 +35,18 @@ AOS.init({
   offset: 0,
 });
 
+const websitePageByPath = {
+  "/": Home,
+  "/services": Services,
+  "/about-us": AboutUs,
+  "/contact-us": ContactUs,
+};
+
 export default function App() {
   return (
     <SpinnerContextProvider>
       <LoadingSpinnerContext />
-      <Suspense fallback={<LoadingSpinner />}>
+      <>
         <WhatsAppIcon />
         <Toaster
           position="top-bottom"
@@ -50,19 +60,22 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           {/* Website Pages */}
-          {routes.map(({ component, name, path }, index) => (
-            <Route
-              key={index}
-              path={path}
-              element={
-                <>
-                  <WebsiteHeader name={name} />
-                  {component}
-                  <WebsiteFooter />
-                </>
-              }
-            />
-          ))}
+          {routes.map(({ name, path }, index) => {
+            const Page = websitePageByPath[path];
+            return (
+              <Route
+                key={index}
+                path={path}
+                element={
+                  <>
+                    <WebsiteHeader name={name} />
+                    <Page />
+                    <WebsiteFooter />
+                  </>
+                }
+              />
+            );
+          })}
 
           <Route path="/thank-you" element={<Thankyou />} />
 
@@ -106,7 +119,7 @@ export default function App() {
             }
           />
         </Routes>
-      </Suspense>
+      </>
     </SpinnerContextProvider>
   );
 }

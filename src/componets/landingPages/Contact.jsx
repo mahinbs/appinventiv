@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import image from "../../assets/images/contactimage.jpg";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { companyDetails } from "../../constant";
+
+const image = "/assets/images/contactimage.jpg";
 const Contact = () => {
   const [spinner, setSpinner] = useState(false);
 

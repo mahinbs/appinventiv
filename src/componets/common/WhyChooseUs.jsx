@@ -6,8 +6,8 @@ import {
   whyChooseUsIcon3,
   whyChooseUsIcon4,
 } from "../../constant";
-import whyus1 from "../../assets/images/whyus1.jpg";
-import whyus2 from "../../assets/images/whyus2.jpg";
+const whyus1 = "/assets/images/whyus1.jpg";
+const whyus2 = "/assets/images/whyus2.jpg";
 const WhyChooseUs = () => {
   const totalYrs = 4;
   const totalOnTimeCompletionPercentage = 95;

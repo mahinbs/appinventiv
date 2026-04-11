@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
 import { allServices } from "../../constant";
 import ReactPlayer from "react-player";
-import homepagebanner from "../../assets/videos/home-banner.mp4";
+const homepagebanner = "/assets/videos/home-banner.mp4";
 
 const ServiceDetailsBanner = () => {
   const { pathname } = useLocation();

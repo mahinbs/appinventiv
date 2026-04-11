@@ -20,13 +20,14 @@ import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
 import Testimonials from "../../componets/common/Testimonials";
 import Portfolio from "../../componets/landingPages/Portfolio";
 import ReactPlayer from "react-player";
-import landingpagevideo from "../../assets/videos/home-banner.mp4";
 import Faqs from "../../componets/common/Faqs";
 import { useForm } from "react-hook-form";
 import Credibility from "../../componets/common/Credibility";
-import image from "../../assets/images/contactimage.jpg";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+
+const landingpagevideo = "/assets/videos/home-banner.mp4";
+const image = "/assets/images/contactimage.jpg";
 
 export const LandingPage = ({ page }) => {
   const isWebDevelopment = Boolean(page === "web-development");
