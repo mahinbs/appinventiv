@@ -75,7 +75,7 @@ const AboutUs = () => {
                   data-aos="fade-up"
                   className="text-lg text-start leading-relaxed text-gray-600"
                 >
-                  Appinventiv is an elite technical partner dedicated to
+                  Besoftware is an elite technical partner dedicated to
                   solving the industry's most complex digital challenges. We
                   specialize in engineering resilient software ecosystems
                   integrated with intelligent analytics, ensuring your business
@@ -166,7 +166,7 @@ const AboutUs = () => {
         <UnlockEfficiency />
         {/* <div className="wrapper mt-[5rem]">
           <h2 data-aos="fade-up" className="heading-2">
-            Why Choose Appinventiv?
+            Why Choose Besoftware?
           </h2>
           <ul className="mt-[2rem] flex flex-col gap-3 list-disc list-outside text-start">
             {whyChooseUsContent.map((item) => (

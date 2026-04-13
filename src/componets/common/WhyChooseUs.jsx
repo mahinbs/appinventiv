@@ -109,7 +109,7 @@ const WhyChooseUs = () => {
                   />
                 </div>
                 <p className="desc text-primarytextcolor text-start mt-3">
-                  As an elite technical partner, Appinventiv specializes in
+                  As an elite technical partner, Besoftware specializes in
                   architecting specialized systems that solve high-complexity 
                   business challenges.
                 </p>

@@ -29,7 +29,7 @@ const Contact = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from Appinventiv",
+      subject: "You have a new message from Besoftware",
       body: emailBody,
     };
 
@@ -63,7 +63,7 @@ const Contact = () => {
             <h2 className="heading-2">Ready to Scale Your Infrastructure?</h2>
             <p className="">
               Partner with
-              <span className="font-bold"> Appinventiv </span> to unlock the 
+              <span className="font-bold"> Besoftware </span> to unlock the 
               full potential of your digital assets. Our architects are ready to 
               collaborate on your next major technical milestone and ensure your 
               business remains at the forefront of the industry.

@@ -47,7 +47,7 @@ const MapComponent = () => {
         attribution=""
       />
       <Marker position={location}>
-        <Popup>Appinventiv</Popup>
+        <Popup>Besoftware</Popup>
       </Marker>
     </MapContainer>
   );

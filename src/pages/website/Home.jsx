@@ -67,7 +67,7 @@ const Home = () => {
                 Scaling Efficiency through Intelligent Systems
               </h2>
               <p className="desc">
-                At Appinventiv, we merge deep technical expertise with
+                At Besoftware, we merge deep technical expertise with
                 strategic innovation to redefine your digital potential. We
                 specialize in engineering premium software ecosystems that
                 transform complex operational challenges into streamlined
@@ -118,7 +118,7 @@ const Home = () => {
           </h1>
           <p className="desc max-w-[50rem] mx-auto">
             We recognize that your digital infrastructure is the primary touchpoint
-            for your global audience. At Appinventiv, we go beyond standard 
+            for your global audience. At Besoftware, we go beyond standard 
             development to build high-performance systems integrated with 
             intelligent analytics and automated workflows. Our focus is on 
             delivering a robust, secure, and scalable foundation that not only

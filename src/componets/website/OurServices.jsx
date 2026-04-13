@@ -109,7 +109,7 @@ const OurServices = ({ length }) => {
           Resilient Digital Ecosystems Built for Scale
         </h2>
         <p data-aos="fade-up" className="desc max-w-[50rem]">
-          Appinventiv provides a spectrum of specialized technical services
+          Besoftware provides a spectrum of specialized technical services
           designed to bridge the gap between architectural complexity and
           operational clarity. From high-velocity mobile platforms to 
           intelligent cloud systems, we architect solutions that ensure your 

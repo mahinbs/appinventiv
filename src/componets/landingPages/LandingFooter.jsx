@@ -105,7 +105,7 @@ const LandingFooter = () => {
             </div>
           </div>
           <p className="text-center mt-5 text-sm text-white/60">
-            © {new Date().getFullYear()} Appinventiv. All Rights Reserved.
+            © {new Date().getFullYear()} Besoftware. All Rights Reserved.
           </p>
         </div>
       </div>

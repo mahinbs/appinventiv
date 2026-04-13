@@ -33,7 +33,7 @@ const ContactUs = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from Appinventiv",
+      subject: "You have a new message from Besoftware",
       body: emailBody,
     };
 
@@ -68,7 +68,7 @@ const ContactUs = () => {
           <p className="desc">
             Our engineering team is ready to analyze your requirements and 
             architect a specialized solution tailored to your goals. Let 
-            Appinventiv be the foundation for your next major technical 
+            Besoftware be the foundation for your next major technical 
             milestone.
           </p>
           <Link

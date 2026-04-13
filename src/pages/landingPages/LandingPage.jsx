@@ -54,7 +54,7 @@ export const LandingPage = ({ page }) => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from Appinventiv",
+      subject: "You have a new message from Besoftware",
       body: emailBody,
     };
 
@@ -122,7 +122,7 @@ export const LandingPage = ({ page }) => {
               </h1>
             )}
              <p className="text-white desc font-medium">
-               Appinventiv is an elite technical partner dedicated to engineering 
+               Besoftware is an elite technical partner dedicated to engineering 
                resilient software that meets the specialized demands of the modern enterprise.
              </p>
             <ScrollLink
@@ -319,7 +319,7 @@ export const LandingPage = ({ page }) => {
               <h2 className="heading-2">Get In Touch With Us!</h2>
               <p className="desc">
                 Get in touch with{" "}
-                <span className="font-semibold">Appinventiv </span>
+                <span className="font-semibold">Besoftware </span>
                 and let us be the catalyst for your digital transformation.
                 Together, we can create solutions that align with your vision,
                 helping your business reach new heights.
