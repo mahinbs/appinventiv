@@ -122,9 +122,9 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91 94182 65436",
-  whatsapp: "919418265436",
-  whatsappbox: "9418265436",
+  phone: "+91 000000000",
+  whatsapp: "91000000000",
+  whatsappbox: "000000000",
   email: "artpur3@gmail.com",
   address: "Suite 401, 4th floor, Plot I-15, Sector 83, Alpha IT City, Sahibzada Ajit Singh Nagar, Punjab 140306",
   instagram: "https://www.instagram.com/",
