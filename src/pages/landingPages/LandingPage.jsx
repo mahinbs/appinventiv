@@ -54,7 +54,6 @@ export const LandingPage = ({ page }) => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      // to: "remeesreme4u@gmail.com",
       subject: "You have a new message from Appinventiv",
       body: emailBody,
     };

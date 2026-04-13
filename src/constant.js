@@ -18,9 +18,27 @@ import { IoLogoAndroid, IoMdCloudDone } from "react-icons/io";
 import { CgWebsite } from "react-icons/cg";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
 import { TbDeviceMobileCode } from "react-icons/tb";
+import fiveGHome from "./assets/images/portfolio/web-development/5ghomes.webp";
+import coldCreek from "./assets/images/portfolio/web-development/cold-creekcap.webp";
+import thinkReality from "./assets/images/portfolio/web-development/think-reality.webp";
+import akashMegaMart from "./assets/images/portfolio/web-development/akash-mega-mart.webp";
+import midwam from "./assets/images/portfolio/web-development/midwam.webp";
+import akashApp from "./assets/images/portfolio/app-development/akash_mega_mart-app.webp";
+import feelitApp from "./assets/images/portfolio/app-development/feelit_app.webp";
+import klikomicsApp from "./assets/images/portfolio/app-development/klikomics.webp";
+import autosnapApp from "./assets/images/portfolio/app-development/autosnap-app.webp";
+import rentopApp from "./assets/images/portfolio/app-development/rentop.webp";
+import aiArtGenerator from "./assets/images/portfolio/ai/AI Art Generator – Vyro AI.webp";
+import findMyAiTool from "./assets/images/portfolio/ai/Find My AI Tool.png";
+import musiclyAi from "./assets/images/portfolio/ai/Musicly – AI Music Generator.webp";
+import nanoflow from "./assets/images/portfolio/blockchain/nanoflow.webp";
+import padipal from "./assets/images/portfolio/blockchain/padipal.webp";
+import cryptopadie from "./assets/images/portfolio/blockchain/cryptopadie.webp";
+import bowling3d from "./assets/images/portfolio/game development/3d bowling game.webp";
+import carStuntExtremeRacing from "./assets/images/portfolio/game development/car stunt extreme racing.webp";
 
 // All assets served from /public/assets — no webpack processing, no bundle bloat
-const logoImg = "/assets/images/logo/logo.svg";
+const logoImg = "/assets/images/logo/logo.png";
 const whyChooseUsIcon1 = "/assets/images/ph_target-light.png";
 const whyChooseUsIcon2 = "/assets/images/mage_light-bulb.png";
 const whyChooseUsIcon3 = "/assets/images/tdesign_user-talk.png";
@@ -62,16 +80,6 @@ const aboutfive = "/assets/images/aboutfive.jpg";
 const aboutusintroone = "/assets/images/aboutusintroone.jpg";
 const aboutusintrotwo = "/assets/images/aboutusintrotwo.jpg";
 const allbgimage = "/assets/images/allbgimage.jpg";
-const fiveGHome = "/assets/images/web-development/5ghomes.webp";
-const coldCreek = "/assets/images/web-development/cold-creekcap.webp";
-const thinkReality = "/assets/images/web-development/think-reality.webp";
-const akashMegaMart = "/assets/images/web-development/akash-mega-mart.webp";
-const midwam = "/assets/images/web-development/midwam.webp";
-const akashApp = "/assets/images/app-development/akash_mega_mart-app.webp";
-const feelitApp = "/assets/images/app-development/feelit_app.webp";
-const klikomicsApp = "/assets/images/app-development/klikomics.webp";
-const autosnapApp = "/assets/images/app-development/autosnap-app.webp";
-const rentopApp = "/assets/images/app-development/rentop.webp";
 const bannerVid = "/assets/videos/banner.mp4";
 
 export {
@@ -117,7 +125,7 @@ export const companyDetails = {
   phone: "+91 94182 65436",
   whatsapp: "919418265436",
   whatsappbox: "9418265436",
-  email: "info@example.com",
+  email: "artpur3@gmail.com",
   address: "Suite 401, 4th floor, Plot I-15, Sector 83, Alpha IT City, Sahibzada Ajit Singh Nagar, Punjab 140306",
   instagram: "https://www.instagram.com/appinventiv",
   linkedin: "https://www.linkedin.com/company/appinventiv",
@@ -128,6 +136,8 @@ export const companyDetails = {
 export const routes = [
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
+  { name: "Portfolio", path: "/portfolio" },
+  { name: "Industries", path: "/industries" },
   { name: "About Us", path: "/about-us" },
   { name: "Contact Us", path: "/contact-us" },
 ];
@@ -538,6 +548,82 @@ export const appPortfolioHomepage = [
     id: 10,
     img: rentopApp,
     title: "Rentop Bike and Car",
+  },
+];
+
+export const aiPortfolio = [
+  { id: 11, img: aiArtGenerator, title: "AI Art Generator - Vyro AI" },
+  { id: 12, img: findMyAiTool, title: "Find My AI Tool" },
+  { id: 13, img: musiclyAi, title: "Musicly - AI Music Generator" },
+];
+
+export const blockchainPortfolio = [
+  { id: 14, img: nanoflow, title: "Nanoflow" },
+  { id: 15, img: padipal, title: "Padipal" },
+  { id: 16, img: cryptopadie, title: "Cryptopadie" },
+];
+
+export const gameDevelopmentPortfolio = [
+  { id: 17, img: bowling3d, title: "3D Bowling Game" },
+  { id: 18, img: carStuntExtremeRacing, title: "Car Stunt Extreme Racing" },
+];
+
+export const portfolioCategories = {
+  webDevelopment: webPortfolioHomepage,
+  appDevelopment: appPortfolioHomepage,
+  ai: aiPortfolio,
+  blockchain: blockchainPortfolio,
+  gameDevelopment: gameDevelopmentPortfolio,
+};
+
+export const industriesWeServe = [
+  {
+    id: 1,
+    title: "Healthcare",
+    description:
+      "Secure patient platforms, telemedicine systems, and analytics dashboards focused on compliance and better care outcomes.",
+  },
+  {
+    id: 2,
+    title: "Fintech",
+    description:
+      "Payment flows, fraud detection, and scalable transaction systems for digital banking and financial operations.",
+  },
+  {
+    id: 3,
+    title: "E-commerce",
+    description:
+      "High-conversion storefronts, product discovery engines, and automation for catalog and order lifecycle management.",
+  },
+  {
+    id: 4,
+    title: "Education",
+    description:
+      "Learning portals, assessment workflows, and engagement tooling for schools, coaching businesses, and edtech products.",
+  },
+  {
+    id: 5,
+    title: "Logistics",
+    description:
+      "Real-time tracking, dispatch optimization, and integrated operational views for supply chain visibility.",
+  },
+  {
+    id: 6,
+    title: "Real Estate",
+    description:
+      "Lead management systems, property listing platforms, and digital experiences for brokers and developers.",
+  },
+  {
+    id: 7,
+    title: "Travel and Hospitality",
+    description:
+      "Booking flows, customer engagement tools, and data-driven service optimization for modern travel brands.",
+  },
+  {
+    id: 8,
+    title: "Media and Entertainment",
+    description:
+      "Content-rich platforms, streaming-ready interfaces, and interactive products that improve audience retention.",
   },
 ];
 

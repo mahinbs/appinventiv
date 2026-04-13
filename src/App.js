@@ -12,6 +12,8 @@ import Home from "./pages/website/Home";
 import Services from "./pages/website/Services";
 import ContactUs from "./pages/website/ContactUs";
 import AboutUs from "./pages/website/AboutUs";
+import Portfolio from "./pages/website/Portfolio";
+import Industries from "./pages/website/Industries";
 import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./componets/SpinnerContext";
@@ -38,6 +40,8 @@ AOS.init({
 const websitePageByPath = {
   "/": Home,
   "/services": Services,
+  "/portfolio": Portfolio,
+  "/industries": Industries,
   "/about-us": AboutUs,
   "/contact-us": ContactUs,
 };
