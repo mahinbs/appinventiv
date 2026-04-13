@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="py-[3rem] text-primarytextcolor">
+      <section className="py-[3rem] wrapper text-primarytextcolor">
         <div
           data-aos="fade-right"
           className="gradient-rounded-text-box mx-auto lg:mx-0"
