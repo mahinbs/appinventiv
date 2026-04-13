@@ -4,7 +4,7 @@ const GetInTouch = () => {
   return (
     <div id="contact" className="pb-[5rem] relative">
       {/* <div className="blurred-red-circle h-[25rem] w-[25rem] bottom-[2rem] right-3 -z-10"></div> */}
-      {/* <div className="blue-bg-shape bottom-[-2rem] left-[-2rem] -z-10 rotate-[-45deg]"></div> */}
+      {/* <div className="orange-bg-shape bottom-[-2rem] left-[-2rem] -z-10 rotate-[-45deg]"></div> */}
       <div className="wrapper grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:justify-items-stretch items-center gap-7">
         <div className="flex flex-col gap-5">
           <h1 className="heading-2 text-center text-lg font-medium lg:text-start">

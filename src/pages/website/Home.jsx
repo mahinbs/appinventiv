@@ -11,7 +11,7 @@ import Credibility from "../../componets/common/Credibility";
 import CommonProject from "../../componets/website/CommonProject";
 
 const aboutUsImg = "/assets/images/aboutuscontent.jpg";
-const bannerVid = "/assets/videos/banner.mp4";
+const bannerVid = "/assets/videos/home-banner.mp4";
 
 const Home = () => {
   return (
@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="py-[3rem] bg-backgroundcolor text-primarytextcolor wrapper">
+      <section className="py-[3rem] text-primarytextcolor">
         <div
           data-aos="fade-right"
           className="gradient-rounded-text-box mx-auto lg:mx-0"

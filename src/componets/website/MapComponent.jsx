@@ -19,9 +19,8 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapComponent = () => {
-  // Use useMemo to memoize the location array
-  // 12.959211956417517, 77.64690870405198;
-  const location = useMemo(() => [30.6385, 76.7765], []);
+  // WeWork Salarpuria Symbiosis, Bannerghatta Road, Bengaluru
+  const location = useMemo(() => [12.959211956417517, 77.64690870405198], []);
 
   const mapRef = useRef(); // Reference to the map
 
@@ -35,7 +34,7 @@ const MapComponent = () => {
   return (
     <MapContainer
       center={location}
-      zoom={10}
+      zoom={15}
       style={{ height: "70vh", width: "100%", zIndex: 0 }}
       whenCreated={(mapInstance) => (mapRef.current = mapInstance)} // Save the map instance to ref
       scrollWheelZoom={false} // Disable zooming with the scroll wheel
@@ -47,7 +46,10 @@ const MapComponent = () => {
         attribution=""
       />
       <Marker position={location}>
-        <Popup>Besoftware</Popup>
+        <Popup>
+          WeWork Salarpuria Symbiosis, Ground floor Bannerghatta Road Arekere
+          Village, Begur Hobli, Bengaluru, Karnataka 560076
+        </Popup>
       </Marker>
     </MapContainer>
   );

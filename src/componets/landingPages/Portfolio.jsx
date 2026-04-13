@@ -65,7 +65,7 @@ const Portfolio = ({ page }) => {
       id="portfolio"
       className="text-black py-[2rem] relative"
     >
-      {/* <div className="blue-bg-shape rotate-[-45deg] top-[2rem] right-3 -z-10"></div> */}
+      {/* <div className="orange-bg-shape rotate-[-45deg] top-[2rem] right-3 -z-10"></div> */}
       {/* <div className="blurred-red-circle h-[25rem] w-[25rem] bottom-[-2rem] left-[-2rem] -z-10"></div> */}
       <div className="">
         <div className="flex flex-col items-center gap-5 text-black">

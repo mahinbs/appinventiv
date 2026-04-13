@@ -7,14 +7,14 @@ module.exports = {
         // 'primary': '#5B6CFF',
         headerbackgroundcolor: "#f4f4f4",
         headertextcolor: "#272727",
-        headertexthoverandactive: "#1163FB",
-        backgroundcolor: "#f0f9ff",
+        headertexthoverandactive: "#ea5d26",
+        backgroundcolor: "#faf3ef",
         primarytextcolor: "#333333",
         footerbackgrouncolor: "#cccccc",
-        primary: "#1163FB",
+        primary: "#ea5d26",
         secondary: "#007acc",
         tertiary: "#2773A7",
-        bordercolor: "rgb(191, 219, 254)",
+        bordercolor: "rgb(255,173,140)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -24,11 +24,11 @@ module.exports = {
       backgroundImage: {
         section4: "url('/src/assets/images/section4-img.png')",
         "custom-gradient":
-          "linear-gradient(90deg, rgba(191, 219, 254, 0.256) 0%, rgba(218, 218, 218, 0.612) 100%)",
+          "linear-gradient(90deg, rgba(255,173,140,0.2567620798319328) 0%, rgba(218,218,218,0.6125043767507004) 100%)",
         "backgro-gradient":
-          "linear-gradient(90deg, rgba(59, 130, 246, 0.545) 0%, rgba(164, 164, 164, 0.61) 100%);",
+          "linear-gradient(90deg, rgba(250,120,67,0.5452774859943977) 0%, rgba(164,164,164,0.6125043767507004) 100%);",
         "backgro-gradient-revert":
-          "linear-gradient(90deg, rgba(164, 164, 164, 0.61) 0% ,rgba(59, 130, 246, 0.545) 100%);",
+          "linear-gradient(90deg, rgba(164,164,164,0.6125043767507004) 0% ,rgba(250,120,67,0.5452774859943977) 100%);",
       },
     },
   },

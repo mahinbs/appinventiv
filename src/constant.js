@@ -122,11 +122,11 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91 000000000",
-  whatsapp: "91000000000",
-  whatsappbox: "000000000",
+  phone: "+91 97764 95055",
+  whatsapp: "919776495055",
+  whatsappbox: "919776495055",
   email: "artpur3@gmail.com",
-  address: "Suite 401, 4th floor, Plot I-15, Sector 83, Alpha IT City, Sahibzada Ajit Singh Nagar, Punjab 140306",
+  address: "WeWork Salarpuria Symbiosis Salarpuria Symbiosis, Ground floor Bannerghatta Road Arekere Village, Begur Hobli, Bengaluru, Karnataka 560076",
   instagram: "https://www.instagram.com/",
   linkedin: "https://www.linkedin.com/",
   twitter: "https://x.com/",
